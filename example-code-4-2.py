@@ -5,7 +5,9 @@
 # Import greeting from mymodule
 import mymodule
 #input
-mymodule.greeting("Paco")
+mymodule.greeting("Mevrouw")
+mymodule.greeting("Erika")
+
 ################################################################################
 print("Gene 1:")
 g1s = mymodule.gene1["symbol"]

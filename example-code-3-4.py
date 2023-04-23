@@ -35,6 +35,8 @@ months = ['Jan', 'Feb', 'Mar', 'Apr']
 print(list(enumerate(months)))
 for n, v in enumerate(months):
     print(n, v, sep="\t")
+
+print("-"*20)
 ################################################################################
 # Range function
 x = range(20)

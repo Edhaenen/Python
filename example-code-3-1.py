@@ -24,7 +24,7 @@ print("Filtered odd items in column 2: {}".format(col2sel))
 diag = [M[i][i] for i in [0, 1, 2]]
 print("Diagonal from M: {}".format(diag))
 
-# Expressions can also be used to collect multiple values
+# Expressions can also be used to ems in column 2: [5]collect multiple values
 list6 = list(range(-6, 7, 2))
 print("\nlist6: {}".format(list6))
 multiples = [[x, x / 2, x * 2] for x in range(-6, 7, 2) if x > 0]

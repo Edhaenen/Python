@@ -6,7 +6,7 @@
 def times(x, y):
 	return x * y
 # Function call
-times(2, 4)
+print(times(2, 4))
 # Save result object
 x = times(2.5, 3)
 print(x)

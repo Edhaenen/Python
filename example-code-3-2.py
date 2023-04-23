@@ -12,16 +12,17 @@ if x < y:
 # One-alternative conditional statement
 # Ask for a gene symbol and check if it is in the list
 listGenes = ["BRCA1","CASP1","CDH1","TNF","TP53"]
-inputGene = input("\nEnter a gene symbol: ")
+inputGene = input("\nEnter a gene symbol: ").upper()
+
 if inputGene in listGenes:
     print("{} is in the list of genes:\n{}".format(inputGene,listGenes))
 else:
-    print("{} was NOT FOUND in the list of genes".format(inputGene))
+    print("{} was NOT FOUND in the list of genes: \n{}".format(inputGene,listGenes))
 print("Done!")
 ################################################################################
 # Third form of conditional statement with more than one test
 # Ask for a nucleotide letter and show the full name
-code = input("\nEnter a nucleotide letter: ")
+code = input("\nEnter a nucleotide letter: ").upper()
 if code == 'A':
   print("A is Adenine")
 elif code == 'C':

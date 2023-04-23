@@ -22,7 +22,7 @@ while True:
     if response == "stop" \
     or response == "Stop" \
     or response == "STOP" : break
-print("\nResponse is {}".format(response.upper()))
+    print("\nResponse is {}".format(response.upper()))
 ################################################################################
 # Black Jack like example:
 # reads numbers and sums them until total >= 21

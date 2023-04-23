@@ -21,12 +21,12 @@ chosen_number = random.choice(myrange)
 print("\nA number from 1 to 10: {}".format(chosen_number))
 ################################################################################
 # Generate random nucleotide sequence length=10
-myrange = range(1,51)
+myrange = range(1,151)
 ntseq = ""
 for i in myrange:
     nt = random.choice(["A","C","T","G"])
     ntseq = ntseq + nt
-    print("\nNew nt = {}\nntseq = {}".format(nt,ntseq))
+    #print("\nNew nt = {}\nntseq = {}".format(nt,ntseq))
 print("Random nt seq: {}".format(ntseq))
 ################################################################################
 # Shuffle a list in random order
